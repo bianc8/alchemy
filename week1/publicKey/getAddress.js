@@ -1,5 +1,5 @@
-// https://en.bitcoin.it/wiki/Technical_background_of_version_1_Bitcoin_addresses
 /*
+https://en.bitcoin.it/wiki/Technical_background_of_version_1_Bitcoin_addresses
 Public Key to Address
 Bitcoin and Ethereum both have a transformation process to take a public key and turn it into an address. For Bitcoin it includes a checksum and Base58 encoding. Ethereum's address transformation is quite a bit simpler, its address is the last 20 bytes of the hash of the public key.
 

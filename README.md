@@ -55,3 +55,33 @@ Using Rainbow table approach, find the color of the given hash from a list of kn
 6. isValid: validate the blockchain, check that every block previousHash match the previous block's hash
 
 </details>
+
+
+# Week 2: Blockchain Storage
+
+Unspent Transaction Outputs (UTXO) and Account-based models.
+
+Tree Data Structures: Binary Search Trees, Merkle Trees
+
+Blockchain Data Storage: Merkle trees, Ethereum Tries.
+
+<details>
+<summary>
+
+## Week 2 Exercises...
+
+</summary>
+
+### Week 2 assignment
+
+
+### Exercise 1: UTXO Model
+
+1. TXO: Create a transaction output class
+when executing a transaction,
+2. check that no input is already spent
+3. check that the input are greather or equal than the outputs transactions
+4. if a transaction is valid, update inputs uTXOSs as spent
+5. calculate a transaction fee for the miners
+
+</details>

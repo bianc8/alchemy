@@ -16,6 +16,16 @@ Consensus mechanisms: proof of work, proof of stake, and proof of authority.
 
 </summary>
 
+### Week 1 assignment
+
+ECDSA Node, react frontend that communicates to centralized (trusted) backend to transfer funds between accounts.
+
+The frontend requests a private key, it display account balance, and allows to send funds to another account (use account public key).
+
+The Transfer function on the client signs the transaction for the backend to verify.
+
+The backend verifies the signature and updates the account balances if everything checks out correct.
+
 ### Exercise 1: findColor
 
 Using Rainbow table approach, find the color of the given hash from a list of known colors.
@@ -43,15 +53,5 @@ Using Rainbow table approach, find the color of the given hash from a list of kn
 4. addBlock: add a new block to the blockchain
 5. link blocks: link the blocks in the blockchain
 6. isValid: validate the blockchain, check that every block previousHash match the previous block's hash
-
-### Week 1 assignment
-
-ECDSA Node, react frontend that communicates to centralized (trusted) backend to transfer funds between accounts.
-
-The frontend requests a private key, it display account balance, and allows to send funds to another account (use account public key).
-
-The Transfer function on the client signs the transaction for the backend to verify.
-
-The backend verifies the signature and updates the account balances if everything checks out correct.
 
 </details>

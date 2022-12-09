@@ -1,20 +1,9 @@
-# Alchemy University 2022
-
-This is the repository for the Ethereum Dev. Bootcamp from Alchemy University 2022.
-For more info visit https://university.alchemy.com/
-
 # Week 1: Blockchain Cryptography
 
 Cryptographic fundamentals: hash functions, digital signatures, and public key cryptography.
-
 Consensus mechanisms: proof of work, proof of stake, and proof of authority.
 
-<details>
-<summary>
-
-## Week 1 Exercises...
-
-</summary>
+## Week 1 Exercises
 
 ### Exercise 1: findColor
 
@@ -49,9 +38,5 @@ Using Rainbow table approach, find the color of the given hash from a list of kn
 ECDSA Node, react frontend that communicates to centralized (trusted) backend to transfer funds between accounts.
 
 The frontend requests a private key, it display account balance, and allows to send funds to another account (use account public key).
-
 The Transfer function on the client signs the transaction for the backend to verify.
-
 The backend verifies the signature and updates the account balances if everything checks out correct.
-
-</details>

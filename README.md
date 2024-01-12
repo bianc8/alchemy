@@ -85,3 +85,18 @@ when executing a transaction,
 5. calculate a transaction fee for the miners
 
 </details>
+
+## Week 3: Ethereum
+
+* PoS in Ethereum,
+* How gas works,
+* How ethereum accounts works,
+* Work with JSON RPC,
+* How to interact with the chain using ethers.js
+
+### Week 3 assignment
+
+Build your own Block Explorer in React using AlchemySDK
+- Allow users to click on a block listed in the webpage to get the block's details including its list of transactions
+- From the list of transactions allow users to click on specific transactions to get the details of the transaction
+- Make an accounts page where a user can look up their balance or someone else's balance

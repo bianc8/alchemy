@@ -94,9 +94,25 @@ when executing a transaction,
 * Work with JSON RPC,
 * How to interact with the chain using ethers.js
 
-### Week 3 assignment
+
+<details>
+<summary>
+
+### Week 3 assignment...
+
+</summary>
+
+
 
 Build your own Block Explorer in React using AlchemySDK
 - Allow users to click on a block listed in the webpage to get the block's details including its list of transactions
 - From the list of transactions allow users to click on specific transactions to get the details of the transaction
 - Make an accounts page where a user can look up their balance or someone else's balance
+</details>
+
+
+## Week 4: Smart Contracts Basics
+
+* Solidity syntax and data types
+* Intro to Hardhat
+* Interacting with smart contracts
